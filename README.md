@@ -17,7 +17,7 @@ This project implements a complete data pipeline with the following components:
 3. Data Processing: Data loaded into BigQuery using dlt
 4. Data Warehouse: Optimized tables in BigQuery with partitioning (using dbt)
 5. Transformations: dbt models create analytical tables
-6. Visualization: R Shiny dashboard provides interactive insights
+6. Visualization: [R shiny dashboard](https://rstudio.github.io/shinydashboard/) provides interactive insights
 
 ## Dataset
 the data were extracted by [`hoopR`](https://hoopr.sportsdataverse.org/). it is an R package for working with men’s basketball data.
@@ -32,6 +32,8 @@ the following tools are used:
  - Dashboard: [R shiny dashboard](https://rstudio.github.io/shinydashboard/)
 
 ## Dashboard
+Please see this [link](https://lai-clement.shinyapps.io/NBA_stats/) for the dashboard
+![image](https://github.com/user-attachments/assets/2e9e62ab-92bd-4f83-8709-28b319c1339d)
 
 ## Steps to Reproduce
 
