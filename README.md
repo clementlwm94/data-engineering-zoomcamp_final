@@ -18,6 +18,8 @@ This project implements a complete data pipeline with the following components:
 4. Data Warehouse: Optimized tables in BigQuery with partitioning (using dbt)
 5. Transformations: dbt models create analytical tables
 6. Visualization: [R shiny dashboard](https://rstudio.github.io/shinydashboard/) provides interactive insights
+7. Orchestration: Kestra automatically schedules and manages workflow execution at the end of each NBA season
+![image](https://github.com/user-attachments/assets/d62e10d2-4556-48b9-8d03-0fce4cdb996a)
 
 ## Dataset
 the data were extracted by [`hoopR`](https://hoopr.sportsdataverse.org/). it is an R package for working with men’s basketball data.
@@ -34,6 +36,8 @@ the following tools are used:
 ## Dashboard
 Please see this [link](https://lai-clement.shinyapps.io/NBA_stats/) for the dashboard
 ![image](https://github.com/user-attachments/assets/2e9e62ab-92bd-4f83-8709-28b319c1339d)
+The R Shiny dashboard provides interactive visualizations of NBA data with:
+ -  A multi-tab interface showing team performance metrics, player statistics, and league-wide trends in an organized, easy-to-navigate layout.
 
 ## Steps to Reproduce
 
